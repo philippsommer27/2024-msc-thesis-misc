@@ -1,10 +1,11 @@
-from datetime import datetime
+from datetime import datetime, timezone
 import os
 import subprocess
 import csv
 import functools
 import sys
 import requests
+import time
 
 query = """
 query($owner: String!, $name: String!) {
@@ -29,7 +30,11 @@ query($owner: String!, $name: String!) {
 }
 """
 
+checked = 0
+total = 0
+
 def read_edoss_file(file_path, out):
+    global total
     columns = []
     with open(file_path) as tsv:
         for column in zip(*[line for line in csv.reader(tsv, dialect="excel-tab")]):
@@ -41,6 +46,8 @@ def read_edoss_file(file_path, out):
     if history_file:
         print(f"Skipping {len(history_file)} already checked repositories...")
         repos = subtract_lists(repos, history_file)
+    
+    total = len(repos)
 
     return repos
 
@@ -48,7 +55,7 @@ def read_history_file(out):
     history_file = out + "/.history"
     try:
         with open(history_file) as f:
-            return f.readlines()
+            return set({line.strip() for line in f})
     except FileNotFoundError:
         return None
     
@@ -62,20 +69,19 @@ def write_history_file(out, repo):
         with open(history_file, "a") as f:
             f.write(repo + "\n")
     
-def subtract_lists(list1, list2):
-    set2 = set(list2)
+def subtract_lists(list1, set2):
+    print(type(list1[0]))
     return [item for item in list1 if item not in set2]
 
 def extract_name(repo_url):
     return "/".join(repo_url.split("/")[-2:])
 
-from datetime import datetime, timezone
-import requests
-import time
-
 def check_suitability(repo_url, age_limit, language, gh_token, out):
     name = extract_name(repo_url)
-    print(f"### Checking {name} ###")
+    global checked
+    global total
+    checked += 1
+    print(f"### Checking {name} [{checked}/{total}]###")
     
     write_history_file(out, repo_url)
 
@@ -161,7 +167,7 @@ def run(file_path, age_limit, language, gh_token, out):
     repos = read_edoss_file(file_path, out)
     is_suitable = functools.partial(check_suitability, age_limit=age_limit, language=language, gh_token=gh_token, out=out)
     filtered_repos = filter(is_suitable, repos)
-
+    
     for repo in filtered_repos:
         clone_url = f"{repo}.git"
         print(f"Cloning {clone_url}")
