@@ -122,6 +122,10 @@ def check_suitability(repo_url, age_limit, language, gh_token, out):
                 time.sleep(wait_time)
                 retry_count += 1
                 continue
+            
+            if response.status_code != 200:
+                print(f"ERROR: Failed to fetch data for {name}: {response.status_code}")
+                return False
 
             response.raise_for_status()
             data = response.json()["data"]["repository"]
