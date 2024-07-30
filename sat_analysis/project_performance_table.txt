@@ -1,0 +1,16 @@
+\begin{table}[]
+\centering
+\begin{tabular}{@{}lllllllll@{}}
+\toprule
+Project Name & Overall Grade & P1 & P2B & P2W & P3 & P4 & P5 & P6 \\ \midrule
+docusign-java-client & A+ & A+ & A+ & A+ & A+ & A+ & A+ & A+ \\
+task-list & A+ & A+ & A+ & A+ & A+ & A+ & A+ & A+ \\
+\midrule
+rtg-core & D & F & A+ & A+ & F & B & F & E \\
+spectator & D & E & A+ & E & D & C & F & F \\
+db-preservation-toolkit & D & D & F & E & F & B & B & B \\
+\bottomrule
+\end{tabular}
+\caption{Best and worst performing projects.}
+\label{tab:overall-top}
+\end{table}

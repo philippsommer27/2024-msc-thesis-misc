@@ -1,0 +1,198 @@
+Pattern: P1
+Bottom 5 Projects:
+  Project: oci-java-sdk
+    Findings: 3
+    Lines of Code: 4963034
+    Ratio: 0.00000060
+    Grade: A+
+
+  Project: aws-sdk-java
+    Findings: 16
+    Lines of Code: 10655187
+    Ratio: 0.00000150
+    Grade: A+
+
+  Project: moe-core
+    Findings: 5
+    Lines of Code: 1157108
+    Ratio: 0.00000432
+    Grade: A+
+
+  Project: speedment
+    Findings: 1
+    Lines of Code: 178082
+    Ratio: 0.00000562
+    Grade: A+
+
+  Project: weblogic-kubernetes-operator
+    Findings: 1
+    Lines of Code: 176770
+    Ratio: 0.00000566
+    Grade: A+
+
+
+Pattern: P2W
+Bottom 5 Projects:
+  Project: xtext
+    Findings: 1
+    Lines of Code: 2799899
+    Ratio: 0.00000036
+    Grade: A+
+
+  Project: metasfresh
+    Findings: 1
+    Lines of Code: 2151142
+    Ratio: 0.00000046
+    Grade: A+
+
+  Project: ihmc-open-robotics-software
+    Findings: 1
+    Lines of Code: 1046628
+    Ratio: 0.00000096
+    Grade: A+
+
+  Project: cloudbreak
+    Findings: 2
+    Lines of Code: 1946406
+    Ratio: 0.00000103
+    Grade: A+
+
+  Project: gwt
+    Findings: 1
+    Lines of Code: 791323
+    Ratio: 0.00000126
+    Grade: A+
+
+
+Pattern: P3
+Bottom 5 Projects:
+  Project: google-cloud-java
+    Findings: 8
+    Lines of Code: 20904869
+    Ratio: 0.00000038
+    Grade: A+
+
+  Project: oci-java-sdk
+    Findings: 13
+    Lines of Code: 4963034
+    Ratio: 0.00000262
+    Grade: A+
+
+  Project: aws-sdk-java
+    Findings: 33
+    Lines of Code: 10655187
+    Ratio: 0.00000310
+    Grade: A+
+
+  Project: stripe-java
+    Findings: 1
+    Lines of Code: 321380
+    Ratio: 0.00000311
+    Grade: A+
+
+  Project: cyclops
+    Findings: 1
+    Lines of Code: 208820
+    Ratio: 0.00000479
+    Grade: A+
+
+
+Pattern: P4
+Bottom 5 Projects:
+  Project: oci-java-sdk
+    Findings: 3
+    Lines of Code: 4963034
+    Ratio: 0.00000060
+    Grade: A+
+
+  Project: aws-sdk-java
+    Findings: 8
+    Lines of Code: 10655187
+    Ratio: 0.00000075
+    Grade: A+
+
+  Project: moe-core
+    Findings: 1
+    Lines of Code: 1157108
+    Ratio: 0.00000086
+    Grade: A+
+
+  Project: google-cloud-java
+    Findings: 24
+    Lines of Code: 20904869
+    Ratio: 0.00000115
+    Grade: A+
+
+  Project: cyclops
+    Findings: 1
+    Lines of Code: 208820
+    Ratio: 0.00000479
+    Grade: A+
+
+
+Pattern: P5
+Bottom 5 Projects:
+  Project: google-cloud-java
+    Findings: 3
+    Lines of Code: 20904869
+    Ratio: 0.00000014
+    Grade: A+
+
+  Project: adyen-java-api-library
+    Findings: 1
+    Lines of Code: 282564
+    Ratio: 0.00000354
+    Grade: A+
+
+  Project: InformationSystem
+    Findings: 1
+    Lines of Code: 280804
+    Ratio: 0.00000356
+    Grade: A+
+
+  Project: aws-sdk-java
+    Findings: 47
+    Lines of Code: 10655187
+    Ratio: 0.00000441
+    Grade: A+
+
+  Project: dsl-devkit
+    Findings: 3
+    Lines of Code: 441060
+    Ratio: 0.00000680
+    Grade: A+
+
+
+Pattern: P6
+Bottom 5 Projects:
+  Project: csb-sdk
+    Findings: 0
+    Lines of Code: 5628
+    Ratio: 0.00000000
+    Grade: A+
+
+  Project: roncoo-pay
+    Findings: 0
+    Lines of Code: 23762
+    Ratio: 0.00000000
+    Grade: A+
+
+  Project: moe-core
+    Findings: 13
+    Lines of Code: 1157108
+    Ratio: 0.00001123
+    Grade: A+
+
+  Project: ud867
+    Findings: 9
+    Lines of Code: 143351
+    Ratio: 0.00006278
+    Grade: A+
+
+  Project: AnyChart-Android
+    Findings: 13
+    Lines of Code: 200332
+    Ratio: 0.00006489
+    Grade: A+
+
+

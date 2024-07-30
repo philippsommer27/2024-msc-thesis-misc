@@ -1,0 +1,198 @@
+Pattern: P1
+Top 5 Projects:
+  Project: nutchpy
+    Findings: 8
+    Lines of Code: 617
+    Ratio: 0.01296596
+    Grade: F
+
+  Project: graal-js-jdk11-maven-demo
+    Findings: 2
+    Lines of Code: 172
+    Ratio: 0.01162791
+    Grade: F
+
+  Project: ApexDoc
+    Findings: 12
+    Lines of Code: 1175
+    Ratio: 0.01021277
+    Grade: F
+
+  Project: BLELocalization
+    Findings: 107
+    Lines of Code: 15053
+    Ratio: 0.00710822
+    Grade: F
+
+  Project: dble-docs-cn
+    Findings: 1
+    Lines of Code: 161
+    Ratio: 0.00621118
+    Grade: F
+
+
+Pattern: P2W
+Top 5 Projects:
+  Project: ApexDoc
+    Findings: 5
+    Lines of Code: 1175
+    Ratio: 0.00425532
+    Grade: F
+
+  Project: fernflower
+    Findings: 95
+    Lines of Code: 57865
+    Ratio: 0.00164175
+    Grade: F
+
+  Project: http-proxy
+    Findings: 2
+    Lines of Code: 1438
+    Ratio: 0.00139082
+    Grade: F
+
+  Project: XBDD
+    Findings: 2
+    Lines of Code: 4975
+    Ratio: 0.00040201
+    Grade: F
+
+  Project: opencredo-esper
+    Findings: 1
+    Lines of Code: 2491
+    Ratio: 0.00040145
+    Grade: F
+
+
+Pattern: P3
+Top 5 Projects:
+  Project: norm
+    Findings: 10
+    Lines of Code: 2217
+    Ratio: 0.00451060
+    Grade: F
+
+  Project: server-sdk-java
+    Findings: 70
+    Lines of Code: 16049
+    Ratio: 0.00436164
+    Grade: F
+
+  Project: jwplayer-sdk-android-demo
+    Findings: 5
+    Lines of Code: 1328
+    Ratio: 0.00376506
+    Grade: F
+
+  Project: AnyChart-Android
+    Findings: 689
+    Lines of Code: 200332
+    Ratio: 0.00343929
+    Grade: F
+
+  Project: android-dts-generator
+    Findings: 4
+    Lines of Code: 1789
+    Ratio: 0.00223589
+    Grade: F
+
+
+Pattern: P4
+Top 5 Projects:
+  Project: ud851-Sunshine
+    Findings: 66
+    Lines of Code: 12919
+    Ratio: 0.00510875
+    Grade: F
+
+  Project: pingpp-android
+    Findings: 1
+    Lines of Code: 232
+    Ratio: 0.00431034
+    Grade: F
+
+  Project: ud406
+    Findings: 75
+    Lines of Code: 21928
+    Ratio: 0.00342028
+    Grade: F
+
+  Project: react-native-razorpay
+    Findings: 1
+    Lines of Code: 513
+    Ratio: 0.00194932
+    Grade: F
+
+  Project: elemental2
+    Findings: 1
+    Lines of Code: 562
+    Ratio: 0.00177936
+    Grade: F
+
+
+Pattern: P5
+Top 5 Projects:
+  Project: disruptor
+    Findings: 223
+    Lines of Code: 5799
+    Ratio: 0.03845491
+    Grade: F
+
+  Project: graal-js-jdk11-maven-demo
+    Findings: 4
+    Lines of Code: 172
+    Ratio: 0.02325581
+    Grade: F
+
+  Project: jackson-jaxrs-propertyfiltering
+    Findings: 29
+    Lines of Code: 1749
+    Ratio: 0.01658090
+    Grade: F
+
+  Project: dubbo-samples
+    Findings: 271
+    Lines of Code: 39767
+    Ratio: 0.00681470
+    Grade: F
+
+  Project: logback-redis
+    Findings: 9
+    Lines of Code: 1373
+    Ratio: 0.00655499
+    Grade: F
+
+
+Pattern: P6
+Top 5 Projects:
+  Project: ud851-Sunshine
+    Findings: 3795
+    Lines of Code: 12919
+    Ratio: 0.29375339
+    Grade: F
+
+  Project: ElSql
+    Findings: 222
+    Lines of Code: 2612
+    Ratio: 0.08499234
+    Grade: F
+
+  Project: auth0-spring-security-api
+    Findings: 118
+    Lines of Code: 1463
+    Ratio: 0.08065619
+    Grade: F
+
+  Project: rest-api-explorer
+    Findings: 20
+    Lines of Code: 256
+    Ratio: 0.07812500
+    Grade: F
+
+  Project: junit-dataprovider
+    Findings: 940
+    Lines of Code: 12690
+    Ratio: 0.07407407
+    Grade: F
+
+
